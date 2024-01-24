@@ -1,0 +1,104 @@
+/* Estilos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #1c3462;
+    color: #fff;
+    font-weight: bold;
+}
+
+.resultado {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    display: block;
+}
+
+.resultado p {
+    margin: 5px 0;
+}
+
+/* Estilos del index.html */
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.btn-container .button {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-container .button:hover {
+    background-color: black;
+}
+
+.button-purple {
+    background-color: #b00eb0;
+}
+
+.button-green {
+    background-color: #8bc820;
+}
